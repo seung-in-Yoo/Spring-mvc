@@ -1,0 +1,56 @@
+# === Java build artifacts ===
+*.class
+
+# === Gradle ===
+.gradle/
+build/
+caches/
+wrapper/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Logs / Temp / System ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === STS (Spring Tool Suite) ===
+.apt_generated/
+.factorypath/
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# === VS Code ===
+.vscode/
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === OS-specific ===
+ehthumbs.db
+Desktop.ini
+
+# === Build output (safe exception for source builds) ===
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
